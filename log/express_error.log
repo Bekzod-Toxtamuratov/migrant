@@ -1,0 +1,180 @@
+{
+  meta: {
+    error: SyntaxError: Expected ',' or '}' after property value in JSON at position 216
+        at JSON.parse (<anonymous>)
+        at parse (C:\Users\User\Desktop\migrant\node_modules\body-parser\lib\types\json.js:89:19)
+        at C:\Users\User\Desktop\migrant\node_modules\body-parser\lib\read.js:128:18
+        at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+        at invokeCallback (C:\Users\User\Desktop\migrant\node_modules\raw-body\index.js:231:16)
+        at done (C:\Users\User\Desktop\migrant\node_modules\raw-body\index.js:220:7)
+        at IncomingMessage.onEnd (C:\Users\User\Desktop\migrant\node_modules\raw-body\index.js:280:7)
+        at IncomingMessage.emit (node:events:514:28)
+        at endReadableNT (node:internal/streams/readable:1589:12)
+        at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+      expose: true,
+      statusCode: 400,
+      status: 400,
+      body: '{\r\n' +
+        '          "name":"Bobur",\r\n' +
+        '          "email":"bekzodtoxtamuratov05@gmail.com",\r\n' +
+        '           "password":"Bekzod1999",\r\n' +
+        '           "confirm_password":"Bekzod1999",\r\n' +
+        '          "phone_number":"93-089-41-82"\r\n' +
+        '          "tg_link":"dad",\r\n' +
+        '          "is_active":"false",\r\n' +
+        '          "is_creator":"true",\r\n' +
+        '          "description":"dad"\r\n' +
+        '}',
+      type: 'entity.parse.failed'
+    },
+    level: 'error',
+    message: "uncaughtException: Expected ',' or '}' after property value in JSON at position 216\n" +
+      "SyntaxError: Expected ',' or '}' after property value in JSON at position 216\n" +
+      '    at JSON.parse (<anonymous>)\n' +
+      '    at parse (C:\\Users\\User\\Desktop\\migrant\\node_modules\\body-parser\\lib\\types\\json.js:89:19)\n' +
+      '    at C:\\Users\\User\\Desktop\\migrant\\node_modules\\body-parser\\lib\\read.js:128:18\n' +
+      '    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)\n' +
+      '    at invokeCallback (C:\\Users\\User\\Desktop\\migrant\\node_modules\\raw-body\\index.js:231:16)\n' +
+      '    at done (C:\\Users\\User\\Desktop\\migrant\\node_modules\\raw-body\\index.js:220:7)\n' +
+      '    at IncomingMessage.onEnd (C:\\Users\\User\\Desktop\\migrant\\node_modules\\raw-body\\index.js:280:7)\n' +
+      '    at IncomingMessage.emit (node:events:514:28)\n' +
+      '    at endReadableNT (node:internal/streams/readable:1589:12)\n' +
+      '    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)',
+    stack: "SyntaxError: Expected ',' or '}' after property value in JSON at position 216\n" +
+      '    at JSON.parse (<anonymous>)\n' +
+      '    at parse (C:\\Users\\User\\Desktop\\migrant\\node_modules\\body-parser\\lib\\types\\json.js:89:19)\n' +
+      '    at C:\\Users\\User\\Desktop\\migrant\\node_modules\\body-parser\\lib\\read.js:128:18\n' +
+      '    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)\n' +
+      '    at invokeCallback (C:\\Users\\User\\Desktop\\migrant\\node_modules\\raw-body\\index.js:231:16)\n' +
+      '    at done (C:\\Users\\User\\Desktop\\migrant\\node_modules\\raw-body\\index.js:220:7)\n' +
+      '    at IncomingMessage.onEnd (C:\\Users\\User\\Desktop\\migrant\\node_modules\\raw-body\\index.js:280:7)\n' +
+      '    at IncomingMessage.emit (node:events:514:28)\n' +
+      '    at endReadableNT (node:internal/streams/readable:1589:12)\n' +
+      '    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)',
+    exception: true,
+    date: 'Thu Mar 07 2024 11:29:20 GMT+0500 (Uzbekistan Standard Time)',
+    process: {
+      pid: 8624,
+      uid: null,
+      gid: null,
+      cwd: 'C:\\Users\\User\\Desktop\\migrant',
+      execPath: 'C:\\Program Files\\nodejs\\node.exe',
+      version: 'v20.10.0',
+      argv: [
+        'C:\\Program Files\\nodejs\\node.exe',
+        'C:\\Users\\User\\Desktop\\migrant\\app'
+      ],
+      memoryUsage: {
+        rss: 50741248,
+        heapTotal: 18436096,
+        heapUsed: 16800024,
+        external: 2442002,
+        arrayBuffers: 33627
+      }
+    },
+    os: { loadavg: [ 0, 0, 0 ], uptime: 10645.328 },
+    trace: [
+      {
+        column: null,
+        file: null,
+        function: 'JSON.parse',
+        line: null,
+        method: 'parse',
+        native: false
+      },
+      {
+        column: 19,
+        file: 'C:\\Users\\User\\Desktop\\migrant\\node_modules\\body-parser\\lib\\types\\json.js',
+        function: 'parse',
+        line: 89,
+        method: null,
+        native: false
+      },
+      {
+        column: 18,
+        file: 'C:\\Users\\User\\Desktop\\migrant\\node_modules\\body-parser\\lib\\read.js',
+        function: null,
+        line: 128,
+        method: null,
+        native: false
+      },
+      {
+        column: 9,
+        file: 'node:async_hooks',
+        function: 'AsyncResource.runInAsyncScope',
+        line: 206,
+        method: 'runInAsyncScope',
+        native: false
+      },
+      {
+        column: 16,
+        file: 'C:\\Users\\User\\Desktop\\migrant\\node_modules\\raw-body\\index.js',
+        function: 'invokeCallback',
+        line: 231,
+        method: null,
+        native: false
+      },
+      {
+        column: 7,
+        file: 'C:\\Users\\User\\Desktop\\migrant\\node_modules\\raw-body\\index.js',
+        function: 'done',
+        line: 220,
+        method: null,
+        native: false
+      },
+      {
+        column: 7,
+        file: 'C:\\Users\\User\\Desktop\\migrant\\node_modules\\raw-body\\index.js',
+        function: 'IncomingMessage.onEnd',
+        line: 280,
+        method: 'onEnd',
+        native: false
+      },
+      {
+        column: 28,
+        file: 'node:events',
+        function: 'IncomingMessage.emit',
+        line: 514,
+        method: 'emit',
+        native: false
+      },
+      {
+        column: 12,
+        file: 'node:internal/streams/readable',
+        function: 'endReadableNT',
+        line: 1589,
+        method: null,
+        native: false
+      },
+      {
+        column: 21,
+        file: 'node:internal/process/task_queues',
+        function: 'process.processTicksAndRejections',
+        line: 82,
+        method: 'processTicksAndRejections',
+        native: false
+      }
+    ],
+    req: {
+      url: '/api/admin',
+      headers: {
+        'content-type': 'application/json',
+        authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc19jcmVhdG9yIjp0cnVlLCJpYXQiOjE3MDk3OTI2OTMsImV4cCI6MTcwOTc5NjI5M30.p_GbwKSp2MLl1lAkmH_795JXgWZFK_dcHbEJjxvJfck',
+        'user-agent': 'PostmanRuntime/7.36.3',
+        accept: '*/*',
+        'cache-control': 'no-cache',
+        'postman-token': '9ccb88fa-55ab-4dca-b20b-1aa5d17e62a5',
+        host: 'localhost:3000',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-length': '330'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/admin',
+      query: {}
+    }
+  },
+  level: 'error',
+  message: 'middlewareError'
+}

@@ -1,0 +1,24 @@
+{
+  "port": 3000,
+  "db_host": "localhost",
+  "db_username": "postgres",
+  "db_password": "root",
+  "db_name": "migrant",
+  "db_port": 5432,
+
+  "secret": "default-jsonniki",
+  "smtp_host": "smtp.gmail.com",
+  "smtp_port": 587,
+  "access_key": "MyAccessTokenSecretKey",
+  "refresh_key": "MyRefreshTokenSecretKey",
+  "access_time": "1h",
+  "smtp_user": "bekzodtoxtamuratov01@gmail.com",
+  "smtp_password": "iriubiqmwofthxxf",
+
+  "refresh_time": "30s",
+  "refresh_ms": 186400000,
+  "api_url": "http://localhost",
+
+  "crypt_password": "Very_very_Secret_Password",
+  "iv": "28408e46"
+}
